@@ -1,0 +1,366 @@
+body{
+   padding    : 0;
+   margin     : 0;
+   font-family: sans-serif;
+}
+
+body.home{
+    background-image: url(images/mall.JPG);
+}
+
+/*========== HEADER ==========*/
+
+#header{
+    text-align: center;
+    width=100%
+    z-index: 600;
+    color: black;
+    font-size: 47px;
+    text-align: center;
+    padding-top: 15px;
+    background-repeat: repeat-y;
+    padding-bottom: 15px;      
+}
+
+#header a{
+    font-family    : Times New Roman, sans-serif;
+    font size      : 47px;
+    font-weight    : 800px;
+    text-decoration : none;
+    color          : darkred;
+}
+
+#header a:hover{
+    font-family     : Times New Roman, sans-serif;
+    font-size       : 51px;
+    color           : darkred;
+    text-decoration : none;
+    right           : auto;
+    padding         : 4.5px;
+}
+
+/*========== TOP-TABS ==========*/
+ 
+#time-offer{
+    font-family: Roboto, serif;
+    font-size: 45px; 
+    text-align: center;
+    color: aliceblue;   
+}
+
+#tabs-top{
+    width           :100%;
+    height          :36px;
+    background-color:lightskyblue;
+    padding-top     : 2px;
+    text-align      : center;
+    margin-right    : 30px;
+    float: right;   
+}
+
+#tabs-top a{
+    font-family    : Helvetica, sans-serif;
+    font size      : 30px;
+    font-weight    : 800px;
+    color          : darkred;
+    margin-right    : 30px;
+}
+
+#tabs-top a:hover{
+    font-family     : Helvetica, sans-serif;
+    font-size       : 20px;
+    color           : black;
+    text-decoration : underline;
+    right           : auto;
+    padding         : 4.5px;
+} 
+
+/*========== MAIN-HOME ==========*/
+
+h2{
+   text-align: center;
+   font-size: 30px;
+   margin: 0;
+   padding-top: 10px;    
+}
+
+a{
+    text-decoration: none;
+}
+
+.gallery{
+    display  : flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;    
+}
+
+.content{
+   width:20%;
+   margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 4px 28px rgba(0,0,0,0.25);
+    background: #f2f2f2;
+}
+
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0,16);    
+}
+
+img{
+    width: 290px;
+    height: 230px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+p{    
+text-align: center;
+    color:#808080;
+    padding-top: 0 8px;
+}
+
+h4{
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    color:darkred;
+}
+
+
+#offer{
+    font-family: Times New Roman, serif;
+    margin: 7px;
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.bord-er{
+    width:30%;
+   margin: 5px;
+     box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 40px;
+    border:1px solid black;
+    padding: 10px;
+    background: #ffffff;
+    font-size: 25px;
+    font-family: Times New Roman, sans-serif;
+}
+
+#icn-s img{
+     width:30px;
+    height: 40px;
+   margin-left: 6px;
+   
+}
+
+/*========== CONTACT PAGE ==========*/
+
+#contact{
+    font-family: Bodoni,serif;
+    font-size: 45px;
+    text-align: center;
+    color:black
+}
+
+#conte{
+    font-family: Bodoni,serif;
+    font-size: 24px;
+    color: black;
+    margin-left: 10px;
+    text-align: left
+}
+
+#info{
+    font-family: Futura,serif;
+    font-size: 22px;
+    color:  #dab76a;
+    margin-left: 10px;
+    text-align: left;    
+}
+
+#info img{
+    flex-wrap: wrap;
+    float:left;
+    width:26px;
+    height: 23px;
+}
+
+/*========== FORM ==========*/
+.img{
+      width: 100%;
+      height: 70%;
+}
+
+.page1{
+    background-color: #ede9e0;;
+}
+
+input{
+    width: 40%;
+    height: 30px;
+   padding-bottom: 4px;
+    border: 1px solid #929292;
+    float: left;
+    margin-left: 9px;
+   
+}
+
+textarea{
+    width: 40%;
+    height: 30px;
+    padding-bottom: 4px;
+    border : 1px solid #929292;
+    align-content:space-around;
+    margin-left: 9px;
+}
+
+.button{
+      display : block;
+      background-color: darkblue;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 25px;
+      font-weight : 600;
+      margin : 8px 0;
+      padding : 8px 0;
+      width: 81.5%;
+     height: 25px;
+}
+
+/*========== MAP PAGE ==========*/
+.ma-p{
+   background-image: url(images/wh.jpeg);
+    flex-direction: row;
+}
+
+.image{
+    width:66%;
+    height: 75%;
+    float:right;
+    flex-wrap: wrap;
+}
+
+#mall-map{
+       text-align: left;
+       color: #dab76a;
+    font-family:Times New Roman, serif;
+    font-size: 50px;
+     margin-left: 13px;
+}
+
+#cpt{
+    color: black;
+    font-size: 44.5px;
+    text-align:left;
+    margin-left: 13px;
+    font-family:  calibri;  
+}
+
+#where{
+      text-align: center;
+       color: black;
+    font-family:Times New Roman, serif;
+    font-size: 29px;
+    margin: 2px;    
+}
+
+/*========== ABOUT PAGE ==========*/
+#mal-map{
+       text-align:center;
+       color: #dab76a;
+    font-family:Times New Roman, serif;;
+    font-size: 50px;
+    
+}
+
+.m img{
+    padding-top: 15px;
+      width:75%;
+    height: 70%;
+}
+
+/*========== MOVIES ==========*/
+#movies img{
+    width:100%;
+    height: 45%;
+}
+
+#details-movie img{
+    height: 191px;
+    width: 250px;
+    float: left;
+    padding-top: 25px;
+    margin-left: 70px;
+}
+
+.details-movie{
+    font-size: 25px;
+}
+
+.diary{
+      font-size:22px;
+    margin-top: 40px;
+    flex-direction: row;
+    margin-right: 20px;
+     float:right;
+}
+
+#player1-movie img{
+      width: 100%;
+      height: 100%;
+}
+
+/*========== SHOP&DINE ==========*/
+
+h3{
+  font-family:Times New Roman, serif;
+  text-align: center;
+  font-size:47px;
+}
+
+.shop-name {
+      direction: ltr;
+}
+
+.shop-name {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 24px;
+    color: #555; 
+}
+
+/*========== INDIVIDUAL SHOP PAGES ==========*/
+
+#logo{
+    width:25%;
+    height:25%;
+}
+
+#stores{
+        margin-left: 29px;
+        align-content: flex-end;
+        font-size: 28px;
+        color:  #dab76a;
+}
+
+#products img{
+    width:40%;
+    height: 40%;
+    float: left;
+    margin-left: 65px;
+    margin-right:40px;
+}
+
